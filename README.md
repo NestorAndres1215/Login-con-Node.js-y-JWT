@@ -14,7 +14,9 @@ Una vez que todo funcione correctamente, podrías esperar ver los siguientes men
  
 # Registrarse
 Cuando consumas el servicio de inicio de sesión en tu aplicación o herramienta de elección, necesitarás utilizar la siguiente URL para realizar las solicitudes:
+
 http://localhost:3000/login
+
 Esta URL corresponde al endpoint de inicio de sesión en tu servidor Express, que escucha en el puerto 3000 localmente. Puedes enviar solicitudes POST a esta URL para enviar las credenciales de inicio de sesión y autenticarte.
 
 ![image](https://github.com/Drest12/Login_MYSQL_JWT_NODE.JS/assets/107701223/93541858-d75f-46d2-b2a9-a260d9ebbc44)
