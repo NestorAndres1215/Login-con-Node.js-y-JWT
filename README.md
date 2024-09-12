@@ -16,4 +16,15 @@ npm install express jsonwebtoken bcryptjs body-parser
 - **bcryptjs**: Para encriptar las contraseñas.
 - **body-parser**: Middleware para analizar el cuerpo de las peticiones.
 
+## Cómo ejecutar el proyecto
+### Clona el repositorio.
+**Instala las dependencias usando npm install.**
+**Inicia el servidor con node app.js o npm start.**
+**Usa herramientas como Postman para probar las rutas /users, /login y /register.**
+### Puerto del Proyecto.
+```bash
+app.listen(3000, () => {
+  console.log('Servidor iniciado en el puerto 3000');
+});
+```
 
