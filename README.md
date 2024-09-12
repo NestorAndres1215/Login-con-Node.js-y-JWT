@@ -31,4 +31,13 @@ app.listen(3000, () => {
   console.log('Servidor iniciado en el puerto 3000');
 });
 ```
+### Notas
+
+- **La contraseña se cifra utilizando `bcryptjs`** para garantizar la seguridad.
+
+- **Los tokens se generan usando `jsonwebtoken`** y expiran después de 1 hora (configurable en el código).
+
+- **Asegúrate de guardar de forma segura la clave secreta (`SECRET_KEY`) en producción**. Es recomendable utilizar variables de entorno o un archivo de configuración para proteger esta información sensible.
+
+
 
