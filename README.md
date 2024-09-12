@@ -9,5 +9,12 @@ Para empezar, debes instalar las dependencias necesarias. Ejecuta los siguientes
 ```bash
 npm init -y
 npm install express jsonwebtoken bcryptjs body-parser
+```
+## Dependencias:
+express: Framework para manejar rutas y crear el servidor.
+jsonwebtoken: Para crear y verificar los tokens JWT.
+bcryptjs: Para encriptar las contraseñas.
+body-parser: Middleware para analizar el cuerpo de las peticiones.
+
 
 
