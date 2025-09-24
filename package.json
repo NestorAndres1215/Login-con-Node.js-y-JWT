@@ -1,21 +1,33 @@
 {
   "name": "api--tienda",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "bcryptjs": "^3.0.2",
     "body-parser": "^1.20.2",
-    "express": "^4.21.0",
-    "jsonwebtoken": "^9.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
-    "mysql2": "^3.3.1",
+    "mysql2": "^3.15.1",
     "nodemon": "^2.0.22"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drest12/-Login-con-Node.js-y-JWT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Drest12/-Login-con-Node.js-y-JWT/issues"
+  },
+  "homepage": "https://github.com/Drest12/-Login-con-Node.js-y-JWT#readme",
+  "description": ""
 }

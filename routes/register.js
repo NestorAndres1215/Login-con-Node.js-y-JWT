@@ -3,7 +3,7 @@ const router = express.Router();
 const bcrypt = require('bcrypt');
 const connection = require('../db');
 
-const saltRounds = 10;
+
 
 router.post('/', async (req, res) => {
   try {
